@@ -269,7 +269,7 @@ bash scripts/waymo/run-waymo.sh cuda:0
 # nuscenes
 bash scripts/nuscene/run-nuscenes.sh cuda:0
 
-# The first parameter means the device ID.
+# The first argument means the device ID.
 ```
 The results can be found in ```./output```.
 
@@ -282,7 +282,7 @@ This framework is adapted from [Gaussian Splatting](https://repo-sam.inria.fr/fu
 ```
 @article{xu2025adgs,
     title={{AD-GS}: Object-Aware {B-Spline} {Gaussian} Splatting for Self-Supervised Autonomous Driving},
-    author={Jiawei, Xu and Kai, Deng and Zexin, Fan and Shenlong, Wang and Jian, Yang and Jin, Xie},
+    author={Jiawei, Xu and Kai, Deng and Zexin, Fan and Shenlong, Wang and Jin, Xie and Jian, Yang},
     journal={International Conference on Computer Vision},
     year={2025},
 }
