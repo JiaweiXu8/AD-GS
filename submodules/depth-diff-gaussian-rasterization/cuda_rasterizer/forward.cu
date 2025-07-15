@@ -309,7 +309,7 @@ renderCUDA(
 	uint32_t last_contributor = 0;
 	float C[CHANNELS] = { 0 };
 	float D = 0.0f;
-	float F[3] = { 0 };
+	float F[FLOW_CHANNELS] = { 0 };
 	float S[SEMANTIC_CHANNELS] = { 0 };
 
 	// Iterate over batches until all done or range is complete
